@@ -7,9 +7,10 @@ You will write two functions to help Twitter users.
 * excitedTweet() - upcases a user's string and adds three exclamation points
 * tweetShortener() - takes tweets that are too long and shortens them
 
-This lab has built in tests. To run them, open "tweet_test.html" in a browser. To re-run the tests, simply refresh your page. Initially, the tests will fail. Don't worry, failing tests are normal when you start a lab. This just means that your code doesn't pass the specifications laid out in the 'spec' folder. You can check out the 'specs' by opening the spec folder and looking at tweets.spec.js.
 
-Put your solution code in "tweets.js" and get both tests to pass.
+This lab has built in tests. To run them, cd into this directory and run npm install. Then open "index.html" in a browser. To re-run the tests, simply refresh your page. Initially, the tests will fail. Don't worry, failing tests are normal when you start a lab. This just means that your code doesn't pass the specifications.
+
+Put your solution code in "tweets.js" and get all tests to pass.
 
 
 ## Resources
