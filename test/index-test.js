@@ -20,11 +20,11 @@ describe('Tweet Functions Lab', () => {
   
   describe('tweetShortener', () => {
     it('takes a tweet and shortens if it is too long', () => {
-      expect(tweetShortener()).toEqual()
+      expect(tweetShortener("I love Kode with Klossy!! I can't wait to learn more about coding and make awesome projects at the end of the camp. Also, Melanie's Velociraptor noises are the best. ")).toEqual("I love Kode with Klossy!! I can't wait to learn more about coding and make awesome projects at the end of the camp. Also, Melanie's Velocira")
     })
     
     it('keeps the tweet the same length if it is not too long', () => {
-      expect(tweetShortener()).toEqual()
+      expect(tweetShortener("I love Kode with Klossy!")).toEqual("I love Kode with Klossy!")
     })    
   })
 })
